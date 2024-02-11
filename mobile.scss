@@ -1,0 +1,55 @@
+body {
+    border: 2px solid saddlebrown;
+    margin: 0%;
+}
+
+.container {
+    border: 2px solid firebrick;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+
+    #Daniel {
+        background-color: #a304ff;
+    }
+    
+    .testimonials {
+        border: 2px solid #1539db;
+        background-color: #a304ff;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        
+        header {
+            display: grid;
+            grid-template-columns: 30% auto;
+            border: 2px solid rgb(219, 193, 21);
+            width: 64%;
+
+            img {
+                border-radius: 50%;
+            }
+            
+            h3 {
+                border: 2px solid rgb(21, 219, 97);
+                margin: 0%;
+                grid-column: 2;
+                width: 100%;
+                text-align: right;
+            }
+
+            p {
+                margin: 02% 0% 0% 0%;
+                grid-column: 2;
+                font-weight: 300;
+                width: 100%;
+                text-align: right;
+            }
+
+        }
+        .title {
+            font-weight: bold;
+            color: aliceblue;
+        }
+    }
+}
