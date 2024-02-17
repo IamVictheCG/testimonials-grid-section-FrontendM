@@ -1,48 +1,109 @@
 body {
-  border: 2px solid saddlebrown;
+  background-color: #d9d9d9;
   margin: 0%;
 }
 
-.container {
-  border: 2px solid firebrick;
+auto .big_container {
+  border: 2px solid rgb(235, 114, 1);
   width: 90%;
   margin: auto;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
   display: grid;
-  grid-template-rows: auto auto auto auto auto;
+  gap: 20px;
+  grid-template-rows: auto auto auto auto;
 }
 .container #Daniel {
-  background-color: #a304ff;
+  background-color: #9915db;
+}
+.container #Daniel header {
+  position: relative;
+  z-index: 21;
+}
+.container #Daniel .quotation {
+  width: 60%;
+  position: relative;
+  bottom: 64.74%;
+  left: 27%;
+  display: inline-block;
+}
+.container #Daniel .title {
+  position: relative;
+  z-index: 21;
+}
+.container #Daniel .message {
+  position: relative;
+  z-index: 21;
+}
+.container #Jonathan {
+  background-color: #3c3941;
+}
+.container #Jonathan header h3 {
+  color: white;
+}
+.container #Kira {
+  background-color: white;
+}
+.container #Kira .title {
+  color: black;
+}
+.container #Patrick {
+  background-color: white;
+}
+.container #Patrick .title {
+  color: black;
 }
 .container .testimonials {
-  border: 2px solid #1539db;
   background-color: #a304ff;
-  margin-bottom: 40px;
   border-radius: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px 15px 10px 15px;
 }
 .container .testimonials header {
   display: grid;
-  grid-template-columns: 30% auto;
-  border: 2px solid rgb(219, 193, 21);
+  grid-template-columns: 33% auto;
   width: 64%;
 }
 .container .testimonials header img {
   border-radius: 50%;
 }
-.container .testimonials header h3 {
-  border: 2px solid rgb(21, 219, 97);
+.container .testimonials header .name {
+  align-items: center;
+}
+.container .testimonials header .name h3 {
   margin: 0%;
   grid-column: 2;
   width: 100%;
-  text-align: right;
+  text-align: left;
 }
-.container .testimonials header p {
+.container .testimonials header .name p {
   margin: 2% 0% 0% 0%;
   grid-column: 2;
   font-weight: 300;
   width: 100%;
   text-align: right;
+  color: #bfbfbf;
+  text-align: left;
 }
 .container .testimonials .title {
   font-weight: bold;
   color: aliceblue;
+  font-size: 33px;
+  z-index: 2;
+}
+.container .testimonials .message {
+  font-size: 20px;
+  color: #bfbfbf;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 5px;
+}
+footer a {
+  text-decoration: none;
 }/*# sourceMappingURL=mobile.css.map */

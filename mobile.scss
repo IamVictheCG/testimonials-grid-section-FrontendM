@@ -1,55 +1,148 @@
 body {
-    border: 2px solid saddlebrown;
+    // border: 2px solid saddlebrown;
+    background-color: #d9d9d9;
     margin: 0%;
+}auto
+
+.big_container {
+    border: 2px solid rgb(235, 114, 1);
+    width: 90%;
+    margin: auto;
 }
 
 .container {
-    border: 2px solid firebrick;
-    width: 90%;
+    // border: 2px solid firebrick;
+    width: 100%;
     margin: auto;
     display: grid;
-    grid-template-rows: auto auto auto auto auto;
+    // left: 5%;
+    gap: 20px;
+    grid-template-rows: auto auto auto auto ;
 
-    #Daniel {
-        background-color: #a304ff;
-    }
     
+
+    
+    #Daniel {
+        background-color: #9915db;
+        // position: relative;
+
+        header {
+            position: relative;
+            z-index: 21;
+        }
+
+        .quotation {
+            // border: 2px #db1515 solid;
+            width: 60%;
+            position: relative;
+            bottom: 64.74%;
+            left: 27%;
+            display: inline-block;
+            
+        }
+        
+        .title {
+            position: relative;
+            z-index: 21;
+        }
+
+        .message {
+            position: relative;
+            z-index: 21;
+        }
+    }
+
+    #Jonathan {
+        background-color: #3c3941; 
+        
+        header {
+            h3 {
+                color: white;
+            }
+        }
+    }
+
+    #Kira {
+        background-color: white;
+
+        .title {
+            color: black;
+        }
+    } 
+    #Patrick {
+        background-color: white;
+
+        .title {
+            color: black;
+        }
+    }
+
     .testimonials {
-        border: 2px solid #1539db;
+        // border: 2px solid #1539db;
         background-color: #a304ff;
-        margin-bottom: 40px;
         border-radius: 20px;
+        height: fit-content;
+        padding: 10px 15px 10px 15px;
         
         header {
             display: grid;
-            grid-template-columns: 30% auto;
-            border: 2px solid rgb(219, 193, 21);
+            grid-template-columns: 33% auto;
+            // border: 2px solid rgb(219, 193, 21);
             width: 64%;
-
+            
+            
             img {
+                // border: 2px solid rgb(219, 193, 21);
                 border-radius: 50%;
             }
             
-            h3 {
-                border: 2px solid rgb(21, 219, 97);
-                margin: 0%;
-                grid-column: 2;
-                width: 100%;
-                text-align: right;
-            }
+            .name {
+                // border: 2px solid rgb(100, 21, 219);
+                align-items: center;
 
-            p {
-                margin: 02% 0% 0% 0%;
-                grid-column: 2;
-                font-weight: 300;
-                width: 100%;
-                text-align: right;
+                h3 {
+                    // border: 2px solid rgb(21, 219, 97);
+                    margin: 0%;
+                    grid-column: 2;
+                    width: 100%;
+                    text-align: left;
+                }
+                
+                p {
+                    // border: 2px solid rgb(0, 0, 255);
+                    margin: 02% 0% 0% 0%;
+                    grid-column: 2;
+                    font-weight: 300;
+                    width: 100%;
+                    text-align: right;
+                    color: #bfbfbf;
+                    text-align: left;
+                }
             }
-
+            
         }
         .title {
             font-weight: bold;
             color: aliceblue;
+            font-size: 33px;
+            z-index: 2;
+            
         }
+        
+        .message {
+            font-size: 20px;
+            color: #bfbfbf;
+            // margin-bottom: 1%;
+        }
+    }
+}
+
+footer {
+    // border: #3c3941 2px solid;
+    text-align: center;
+    margin-bottom: 5px;
+
+    a {
+        text-decoration: none;;
     }
 }

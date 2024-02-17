@@ -1,0 +1,111 @@
+@media (min-width: 646px) {
+    body {
+        font-size: 100%;
+    }
+
+    .big_container {
+        // border: 2px solid rgb(255, 123, 0);
+        width: 70%;
+        margin: auto; 
+        margin-top: 2%;
+        padding: 0%;
+            
+        .container {
+            // border: 2px solid rgb(128, 0, 255);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows:repeat(2, 1fr);
+            gap: 1%;
+            width: 100%;
+            height: fit-content;
+            padding: 0%;
+            
+            header {
+                // border: 2px solid rgb(219, 193, 21);
+                width: 180px;
+                
+                .name {
+                    // border: 2px solid rgb(250, 14, 128);
+                    height: fit-content;
+                    margin-top: 10px;
+
+                    h3 {
+                        // border: 2px solid rgb(14, 250, 187);
+                        font-size: 0.7671em;
+                        // width: fit-content;
+                        text-align: left;
+                    }
+
+                    p {
+                        font-size: smaller;
+                    }
+                }
+            }
+            
+            .testimonials {
+                // border: 2px solid rgb(14, 250, 187);
+                height: auto;
+                margin: 0% !important;
+                overflow: hidden;
+                
+                .title {
+                    font-size: 1em
+                }
+                
+                .message {
+                    margin: 0% !important;
+                    font-size: .8em;
+                }
+            }
+    
+            
+    
+            #Daniel {
+                grid-column: span 2;
+                grid-column: span 2;
+    
+                .quotation {
+                    // border: 2px #db1515 solid;
+                    width: 10%;
+                    left: 37%;
+                    bottom: 75%;
+                    // display: none;
+                    
+                }
+                
+            }
+
+            #Kira {
+                background-color: rgb(35, 127, 197);
+                grid-row: 1/ 3;
+                grid-column-start: 4;               
+            }
+
+            #Patrick {
+                background-color: rgb(20, 47, 68);
+                // grid-row: 1/ 3;
+                grid-column: span 2;
+
+                header div > h3{
+                    color: white;
+                }
+                
+                .title {
+                    color: white;
+                }
+            }
+
+            #Jeanette {
+                background-color: rgb(35, 127, 197);
+            }
+    
+        }
+    }
+
+    footer {
+        // border: 2px solid darkblue;
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+}
